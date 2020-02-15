@@ -8,7 +8,14 @@ const locales = {
     ],
     sidebar: [
       ['/vi/', 'Trang chủ'],
-      ['/vi/blogs/', 'Bài viết'],
+      {
+        title: 'Bài viết',
+        path: '/vi/blogs/',
+        sidebarDepth: 1,
+        children: [
+          '/vi/blogs/02152020_neovim'
+        ]
+      },
       ['/vi/guide/', 'Hướng dẫn']
     ]
   },
@@ -21,7 +28,14 @@ const locales = {
     ],
     sidebar: [
       ['/ja/', 'ホームページ'],
-      ['/ja/blogs/', 'ホームページ'],
+      {
+        title: 'ホームページ',
+        path: '/ja/blogs/',
+        sidebarDepth: 1,
+        children: [
+          '/ja/blogs/02152020_neovim'
+        ]
+      },
       ['/ja/guide/', 'ガイド']
     ]
   }

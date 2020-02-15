@@ -1,7 +1,7 @@
 const locales = require('./locales')
 
 const themeConfig = {
-  logo: '../../logo.png',
+  logo: '/logo.png',
   nav: [
     { text: 'Home', link: '/' },
     { text: 'Blogs', link: '/blogs/' },
@@ -9,7 +9,14 @@ const themeConfig = {
   ],
   sidebar: [
     ['/', 'Index'],
-    ['/blogs/', 'Blogs'],
+    {
+      title: 'Blogs',
+      path: '/blogs/',
+      sidebarDepth: 1,
+      children: [
+        '/blogs/02152020_neovim'
+      ]
+    },
     ['/guide/', 'Explicit link text']
   ],
   locales
