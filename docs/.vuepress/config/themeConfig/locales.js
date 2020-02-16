@@ -1,6 +1,7 @@
 const locales = {
   '/vi/': {
     selectText: 'Ngôn ngữ',
+    lastUpdated: 'Cập nhật vào lúc',
     nav: [
       { text: 'Trang chủ', link: '/vi/' },
       { text: 'Bài viết', link: '/vi/blogs/' },
@@ -21,6 +22,7 @@ const locales = {
   },
   '/ja/': {
     selectText: '言語',
+    lastUpdated: 'Cập nhật vào lúc',
     nav: [
       { text: 'ホームページ', link: '/ja/' },
       { text: 'ホームページ', link: '/ja/blogs/' },

@@ -2,6 +2,7 @@ const locales = require('./locales')
 
 const themeConfig = {
   logo: '/logo.png',
+  lastUpdated: 'Last Updated',
   nav: [
     { text: 'Home', link: '/' },
     { text: 'Blogs', link: '/blogs/' },

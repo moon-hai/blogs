@@ -2,6 +2,7 @@ const head = require('./config/head')
 const locales = require('./config/locale')
 const themeConfig = require('./config/themeConfig/themeConfig')
 const configureWebpack = require('./config/configureWebpack')
+const plugins = require('./config/plugins')
 
 module.exports = {
   title: 'VuePress',
@@ -9,5 +10,6 @@ module.exports = {
   head,
   locales,
   themeConfig,
-  configureWebpack
+  configureWebpack,
+  plugins
 }
