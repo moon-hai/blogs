@@ -1,11 +1,16 @@
 {
+  "name": "vue-configuration",
+  "description": "starter with vuepress",
+  "version": "1.0.0",
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"
   },
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.3.0",
-    "core-js": "^2.5.7"
+    "@vuepress/plugin-nprogress": "^1.3.0",
+    "core-js": "^2.5.7",
+    "vuepress-plugin-medium-zoom": "^1.1.8"
   },
   "dependencies": {
     "gray-matter": "^4.0.2"
