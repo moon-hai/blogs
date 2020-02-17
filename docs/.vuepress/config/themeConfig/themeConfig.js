@@ -15,7 +15,8 @@ const themeConfig = {
       path: '/blogs/',
       sidebarDepth: 1,
       children: [
-        '/blogs/02152020_neovim'
+        '/blogs/02152020_neovim',
+        '/blogs/02172020_micheal'
       ]
     },
     ['/guide/', 'Explicit link text']

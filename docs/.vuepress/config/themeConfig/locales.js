@@ -14,7 +14,8 @@ const locales = {
         path: '/vi/blogs/',
         sidebarDepth: 1,
         children: [
-          '/vi/blogs/02152020_neovim'
+          '/vi/blogs/02152020_neovim',
+          '/vi/blogs/02172020_micheal'
         ]
       },
       ['/vi/guide/', 'Hướng dẫn']
@@ -35,7 +36,8 @@ const locales = {
         path: '/ja/blogs/',
         sidebarDepth: 1,
         children: [
-          '/ja/blogs/02152020_neovim'
+          '/ja/blogs/02152020_neovim',
+          '/ja/blogs/02172020_micheal'
         ]
       },
       ['/ja/guide/', 'ガイド']
